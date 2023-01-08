@@ -175,7 +175,9 @@
                                                     </span>
                                                 </div>
                                                 <div class="col-12 mb-3 align-self-end">
-                                                    <button class="btn btn-outline-dark" type="button"><i class="fas fa-cart-plus me-2"></i>Add to cart</button>
+                                                    <form action="addtocart.php" method="post">
+                                                        <input name="000"  class="btn btn-outline-dark" type="submit" value="Add to cart">
+                                                    </form>
                                                 </div>
                                             </div>
                                         </div>
@@ -189,7 +191,6 @@
                                                 <div class="col-12 p-0 mb-3">
                                                    
                                                         <img src="images/chicken.jpg" class="img-fluid">
-                                                    </a>
                                                 </div>
                                                 <div class="col-12 mb-3">
                                                    FRIED CHICKEN
@@ -200,7 +201,12 @@
                                                     </span>
                                                 </div>
                                                 <div class="col-12 mb-3 align-self-end">
-                                                    <button class="btn btn-outline-dark" type="button"><i class="fas fa-cart-plus me-2"></i>Add to cart</button>
+                                                    
+                                                    <form action="addtocart.php" method="post">
+                                                        <input name="submit"  class="btn btn-outline-dark" type="submit" value="Add to cart">
+                                                        <input type='hidden' name="productid" value="0002">
+                                                    </form>
+
                                                 </div>
                                             </div>
                                         </div>
@@ -226,7 +232,9 @@
                                                     </span>
                                                 </div>
                                                 <div class="col-12 mb-3 align-self-end">
-                                                    <button class="btn btn-outline-dark" type="button"><i class="fas fa-cart-plus me-2"></i>Add to cart</button>
+                                                    <form action="addtocart.php" method="post">
+                                                        <input name="submit"  class="btn btn-outline-dark" type="submit" value="Add to cart">
+                                                    </form>
                                                 </div>
                                             </div>
                                         </div>
@@ -252,7 +260,9 @@
                                                     </span>
                                                 </div>
                                                 <div class="col-12 mb-3 align-self-end">
-                                                    <button class="btn btn-outline-dark" type="button"><i class="fas fa-cart-plus me-2"></i>Add to cart</button>
+                                                    <form action="addtocart.php" method="post">
+                                                        <input name="submit"  class="btn btn-outline-dark" type="submit" value="Add to cart">
+                                                    </form>
                                                 </div>
                                             </div>
                                         </div>
@@ -303,7 +313,9 @@
                                                     </span>
                                                 </div>
                                                 <div class="col-12 mb-3 align-self-end">
-                                                    <button class="btn btn-outline-dark" type="button"><i class="fas fa-cart-plus me-2"></i>Add to cart</button>
+                                                    <form action="addtocart.php" method="post">
+                                                        <input name="submit"  class="btn btn-outline-dark" type="submit" value="Add to cart">
+                                                    </form>
                                                 </div>
                                             </div>
                                         </div>
@@ -333,7 +345,9 @@
                                                     </span>
                                                 </div>
                                                 <div class="col-12 mb-3 align-self-end">
-                                                    <button class="btn btn-outline-dark" type="button"><i class="fas fa-cart-plus me-2"></i>Add to cart</button>
+                                                    <form action="addtocart.php" method="post">
+                                                        <input name="submit"  class="btn btn-outline-dark" type="submit" value="Add to cart">
+                                                    </form>
                                                 </div>
                                             </div>
                                         </div>
@@ -362,7 +376,9 @@
                                                     </span>
                                                 </div>
                                                 <div class="col-12 mb-3 align-self-end">
-                                                    <button class="btn btn-outline-dark" type="button"><i class="fas fa-cart-plus me-2"></i>Add to cart</button>
+                                                    <form action="addtocart.php" method="post">
+                                                        <input name="submit"  class="btn btn-outline-dark" type="submit" value="Add to cart">
+                                                    </form>
                                                 </div>
                                             </div>
                                         </div>
@@ -392,7 +408,9 @@
                                                     </span>
                                                 </div>
                                                 <div class="col-12 mb-3 align-self-end">
-                                                    <button class="btn btn-outline-dark" type="button"><i class="fas fa-cart-plus me-2"></i>Add to cart</button>
+                                                    <form action="addtocart.php" method="post">
+                                                        <input name="submit"  class="btn btn-outline-dark" type="submit" value="Add to cart">
+                                                    </form>
                                                 </div>
                                             </div>
                                         </div>
