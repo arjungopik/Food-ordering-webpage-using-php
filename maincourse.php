@@ -5,7 +5,7 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>HIGHLAND:Juice</title>
+    <title>HIGHLAND:starters</title>
 
     <link href="//fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
     <link href="//fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300i,700" rel="stylesheet">
@@ -120,7 +120,7 @@
                         <div class="col-12 py-3">
                             <div class="row">
                                 <div class="col-12 text-center text-uppercase">
-                                    <h2>JUICE</h2>
+                                    <h2>MAINCOURSE</h2>
                                 </div>
                             </div>
                             <div class="row">
@@ -130,22 +130,22 @@
                                     <div class="col-12 bg-white text-center h-100 product-item">
                                         <div class="row h-100">
                                             <div class="col-12 p-0 mb-3">
-                                               
-                                                    <img src="images/orange.jpg" class="img-fluid">
+                                                
+                                                    <img src="images/chickenbiriyani.jpg" class="img-fluid">
                                                 </a>
                                             </div>
                                             <div class="col-12 mb-3">
-                                                ORANGE JUICE
+                                                CHICKEN BIRIYANI
                                             </div>
                                             <div class="col-12 mb-3">
                                                 <span class="product-price">
-                                                        Rs:70
+                                                        Rs:250
                                                     </span>
                                             </div>
                                             <div class="col-12 mb-3 align-self-end">
                                                   <form action="addtocart.php" method="post">
                                                         <input name="submit"  class="btn btn-outline-dark" type="submit" value="Add to cart">
-                                                        <input type = "hidden" name="productid" value="1012">
+                                                        <input type = "hidden" name="productid" value="1000">
                                                     </form>
                                             </div>
                                         </div>
@@ -158,22 +158,22 @@
                                     <div class="col-12 bg-white text-center h-100 product-item">
                                         <div class="row h-100">
                                             <div class="col-12 p-0 mb-3">
-                                               
-                                                    <img src="images/guvava.jpg" class="img-fluid">
+                                                
+                                                    <img src="images/noodles.jpg" class="img-fluid">
                                                 </a>
                                             </div>
                                             <div class="col-12 mb-3">
-                                                GUVAVA JUICE
+                                                CHICKEN NOODLES
                                             </div>
                                             <div class="col-12 mb-3">
                                                     <span class="product-price">
-                                                        Rs:70
+                                                        220
                                                     </span>
                                             </div>
                                             <div class="col-12 mb-3 align-self-end">
                                                   <form action="addtocart.php" method="post">
                                                         <input name="submit"  class="btn btn-outline-dark" type="submit" value="Add to cart">
-                                                        <input type = "hidden" name="productid" value="1013">
+                                                        <input type = "hidden" name="productid" value="1001">
                                                     </form>
                                             </div>
                                         </div>
@@ -186,22 +186,22 @@
                                     <div class="col-12 bg-white text-center h-100 product-item">
                                         <div class="row h-100">
                                             <div class="col-12 p-0 mb-3">
-                                               
-                                                    <img src="images/PINAPLE.jpg" class="img-fluid">
+                                                
+                                                    <img src="images/chickenfriedrice.jpg" class="img-fluid">
                                                 </a>
                                             </div>
                                             <div class="col-12 mb-3">
-                                                PINEAPPLE JUICE
+                                                CHICKEN FRIED RICE
                                             </div>
                                             <div class="col-12 mb-3">
                                                 <span class="product-price">
-                                                        Rs:80
+                                                        Rs:210
                                                     </span>
                                             </div>
                                             <div class="col-12 mb-3 align-self-end">
                                                   <form action="addtocart.php" method="post">
                                                         <input name="submit"  class="btn btn-outline-dark" type="submit" value="Add to cart">
-                                                        <input type = "hidden" name="productid" value="1014">
+                                                        <input type = "hidden" name="productid" value="1002">
                                                     </form>
                                             </div>
                                         </div>
@@ -214,22 +214,22 @@
                                     <div class="col-12 bg-white text-center h-100 product-item">
                                         <div class="row h-100">
                                             <div class="col-12 p-0 mb-3">
-                                               
-                                                    <img src="images/carrot.jpg" class="img-fluid">
+                                                
+                                                    <img src="images/meals.jpg" class="img-fluid">
                                                 </a>
                                             </div>
                                             <div class="col-12 mb-3">
-                                                CARROT JUICE
+                                                MEALS
                                             </div>
                                             <div class="col-12 mb-3">
                                                     <span class="product-price">
-                                                        Rs:60
+                                                       Rs:120
                                                     </span>
                                             </div>
                                             <div class="col-12 mb-3 align-self-end">
                                                   <form action="addtocart.php" method="post">
                                                         <input name="submit"  class="btn btn-outline-dark" type="submit" value="Add to cart">
-                                                        <input type = "hidden" name="productid" value="1015">
+                                                        <input type = "hidden" name="productid" value="1003">
                                                     </form>
                                             </div>
                                         </div>
@@ -242,50 +242,50 @@
                                     <div class="col-12 bg-white text-center h-100 product-item">
                                         <div class="row h-100">
                                             <div class="col-12 p-0 mb-3">
-                                               
-                                                    <img src="images/WATERMELON.jpg" class="img-fluid">
+                                                
+                                                    <img src="images/GheeRICE.jpg" class="img-fluid">
                                                 </a>
                                             </div>
                                             <div class="col-12 mb-3">
-                                                WATERMELON JUICE
-                                            </div>
-                                            <div class="col-12 mb-3">
-                                                <span class="product-price">
-                                                        Rs:60
-                                                    </span>
-                                            </div>
-                                            <div class="col-12 mb-3 align-self-end">
-                                                  <form action="addtocart.php" method="post">
-                                                        <input name="submit"  class="btn btn-outline-dark" type="submit" value="Add to cart">
-                                                        <input type = "hidden" name="productid" value="1016">
-                                                    </form>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- Product -->
-
-                                <!-- Product -->
-                                <div class="col-xl-2 col-lg-3 col-sm-6 my-3">
-                                    <div class="col-12 bg-white text-center h-100 product-item">
-                                        <div class="row h-100">
-                                            <div class="col-12 p-0 mb-3">
-                                               
-                                                    <img src="images/grape.jpg" class="img-fluid">
-                                                </a>
-                                            </div>
-                                            <div class="col-12 mb-3">
-                                               GRAPE JUICE
+                                                GHEE RiCE
                                             </div>
                                             <div class="col-12 mb-3">
                                                     <span class="product-price">
-                                                        Rs:60
+                                                       Rs:120
                                                     </span>
                                             </div>
                                             <div class="col-12 mb-3 align-self-end">
                                                   <form action="addtocart.php" method="post">
                                                         <input name="submit"  class="btn btn-outline-dark" type="submit" value="Add to cart">
-                                                        <input type = "hidden" name="productid" value="1017">
+                                                        <input type = "hidden" name="productid" value="1004">
+                                                    </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Product -->
+
+                                <!-- Product -->
+                                <div class="col-xl-2 col-lg-3 col-sm-6 my-3">
+                                    <div class="col-12 bg-white text-center h-100 product-item">
+                                        <div class="row h-100">
+                                            <div class="col-12 p-0 mb-3">
+                                                
+                                                    <img src="images/POROTA.jpg" class="img-fluid">
+                                                </a>
+                                            </div>
+                                            <div class="col-12 mb-3">
+                                                POROTA
+                                            </div>
+                                            <div class="col-12 mb-3">
+                                                    <span class="product-price">
+                                                        Rs:15
+                                                    </span>
+                                            </div>
+                                            <div class="col-12 mb-3 align-self-end">
+                                                  <form action="addtocart.php" method="post">
+                                                        <input name="submit"  class="btn btn-outline-dark" type="submit" value="Add to cart">
+                                                        <input type = "hidden" name="productid" value="1005">
                                                     </form>
                                             </div>
                                         </div>
