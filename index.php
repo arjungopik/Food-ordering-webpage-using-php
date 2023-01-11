@@ -1,6 +1,3 @@
-<?php
-   include("connection.php");
-?>
 <!doctype html>
 <html lang="en">
 <head>
@@ -40,10 +37,7 @@
                         <div class="col-auto">
                             <ul class="top-nav">
                                 <li>
-                                    <a href="register.html"><i class="fas fa-user-edit me-2"></i>Register</a>
-                                </li>
-                                <li>
-                                    <a href="login.html"><i class="fas fa-sign-in-alt me-2"></i>Login</a>       
+                                    <a href="login.php"><i class="fas fa-sign-in-alt me-2"></i>Login</a>       
                                 </li>
                             </ul>
                         </div>
@@ -56,7 +50,7 @@
                     <div class="row">
                         <div class="col-lg-auto">
                             <div class="site-logo text-center text-lg-left">
-                                <a href="index.html">HIGHLAND RESTAURANT</a>
+                                <a href="index.php">HIGHLAND RESTAURANT</a>
                             </div>
                         </div>
                         <div class="col-lg-5 mx-auto mt-4 mt-lg-0">
@@ -70,12 +64,8 @@
                             </form>
                         </div>
                         <div class="col-lg-auto text-center text-lg-left header-item-holder">
-                            <a href="#" class="header-item">
-                                <i class="fas fa-heart me-2"></i><span id="header-favorite">0</span>
-                            </a>
-                            <a href="cart.html" class="header-item">
-                                <i class="fas fa-shopping-bag me-2"></i><span id="header-qty" class="me-3">2</span>
-                                <i class="fas fa-money-bill-wave me-2"></i><span id="header-price">$4,000</span>
+                                <a href="cart.php" class="header-item">
+                                <i class="fas fa-money-bill-wave me-2"></i><span id="header-price">Cart</span>
                             </a>
                         </div>
                     </div>
@@ -89,17 +79,17 @@
                             <div class="collapse navbar-collapse" id="mainNav">
                                 <ul class="navbar-nav mx-auto mt-2 mt-lg-0">
                                     <li class="nav-item active">
-                                        <a class="nav-link" href="starters.html">STARTERS<span class="sr-only">(current)</span></a>
+                                        <a class="nav-link" href="starters.php">STARTERS<span class="sr-only">(current)</span></a>
                                     </li>
                                     <li class="nav-item active">
-                                        <a class="nav-link" href="maincourse.html">MAINCOURSE<span class="sr-only">(current)</span></a>
+                                        <a class="nav-link" href="maincourse.php">MAINCOURSE<span class="sr-only">(current)</span></a>
                                     </li>
                                     
                                     <li class="nav-item active">
-                                        <a class="nav-link" href="juice.html">JUICE<span class="sr-only">(current)</span></a>
+                                        <a class="nav-link" href="juice.php">JUICE<span class="sr-only">(current)</span></a>
                                     </li>
                                     <li class="nav-item active">
-                                        <a class="nav-link" href="desert.html">DESSERT<span class="sr-only">(current)</span></a>
+                                        <a class="nav-link" href="desert.php">DESSERT<span class="sr-only">(current)</span></a>
                                     </li>
                                 </ul>
                             </div>
@@ -163,18 +153,25 @@
                                     <div class="col-lg-3 col-sm-6 my-3">
                                         <div class="col-12 bg-white text-center h-100 product-item">
                                             <div class="row h-100">
-                                                
-                                                   <?php 
-                                                       $query="SELECT * FROM items order by iname limit 4";
-                                                       $result = mysqli_query($conn,$query);
-                                                       while($row=mysqli_fetch_array($result))
-                                                       {
-                                                        <div class="col-12 p-0 mb-3">
-                                                            <form method="post" action="index.php?id=<?=$row['icode']?>">
-                                                                <img src="img/<?=row['img'];?>"
-
-                                                       }
-                                                    ?>
+                                                <div class="col-12 p-0 mb-3">
+                                                   
+                                                        <img src="images/chickenfriedrice.jpg" class="img-fluid">
+                                                    </a>
+                                                </div>
+                                                <div class="col-12 mb-3">
+                                                    FRIED RICE
+                                                </div>
+                                                <div class="col-12 mb-3">
+                                                    
+                                                    <span class="product-price">
+                                                        Rs:210
+                                                    </span>
+                                                </div>
+                                                <div class="col-12 mb-3 align-self-end">
+                                                    <form  method="post">
+                                                        <input name="submit"  class="btn btn-outline-dark" type="submit" value="Add to cart">
+                                                        <input type='hidden' name="productid" value="1002">
+                                                    </form>
                                                 </div>
                                             </div>
                                         </div>
@@ -199,9 +196,9 @@
                                                 </div>
                                                 <div class="col-12 mb-3 align-self-end">
                                                     
-                                                    <form action="addtocart.php" method="post">
+                                                    <form  method="post">
                                                         <input name="submit"  class="btn btn-outline-dark" type="submit" value="Add to cart">
-                                                        <input type='hidden' name="productid" value="0002">
+                                                        <input type='hidden' name="productid" value="1006">
                                                     </form>
 
                                                 </div>
@@ -229,8 +226,9 @@
                                                     </span>
                                                 </div>
                                                 <div class="col-12 mb-3 align-self-end">
-                                                    <form action="addtocart.php" method="post">
+                                                <form  method="post">
                                                         <input name="submit"  class="btn btn-outline-dark" type="submit" value="Add to cart">
+                                                        <input type='hidden' name="productid" value="1011">
                                                     </form>
                                                 </div>
                                             </div>
@@ -257,8 +255,9 @@
                                                     </span>
                                                 </div>
                                                 <div class="col-12 mb-3 align-self-end">
-                                                    <form action="addtocart.php" method="post">
+                                                <form  method="post">
                                                         <input name="submit"  class="btn btn-outline-dark" type="submit" value="Add to cart">
+                                                        <input type='hidden' name="productid" value="1013">
                                                     </form>
                                                 </div>
                                             </div>
@@ -310,8 +309,9 @@
                                                     </span>
                                                 </div>
                                                 <div class="col-12 mb-3 align-self-end">
-                                                    <form action="addtocart.php" method="post">
+                                                    <form  method="post">
                                                         <input name="submit"  class="btn btn-outline-dark" type="submit" value="Add to cart">
+                                                        <input type = "hidden" name="productid" value="1000">
                                                     </form>
                                                 </div>
                                             </div>
@@ -342,8 +342,9 @@
                                                     </span>
                                                 </div>
                                                 <div class="col-12 mb-3 align-self-end">
-                                                    <form action="addtocart.php" method="post">
+                                                    <form  method="post">
                                                         <input name="submit"  class="btn btn-outline-dark" type="submit" value="Add to cart">
+                                                        <input type = "hidden" name="productid" value="1008">
                                                     </form>
                                                 </div>
                                             </div>
@@ -373,8 +374,9 @@
                                                     </span>
                                                 </div>
                                                 <div class="col-12 mb-3 align-self-end">
-                                                    <form action="addtocart.php" method="post">
+                                                    <form  method="post">
                                                         <input name="submit"  class="btn btn-outline-dark" type="submit" value="Add to cart">
+                                                        <input type = "hidden" name="productid" value="1002">
                                                     </form>
                                                 </div>
                                             </div>
@@ -405,8 +407,9 @@
                                                     </span>
                                                 </div>
                                                 <div class="col-12 mb-3 align-self-end">
-                                                    <form action="addtocart.php" method="post">
+                                                    <form  method="post">
                                                         <input name="submit"  class="btn btn-outline-dark" type="submit" value="Add to cart">
+                                                        <input type = "hidden" name="productid" value="1006">
                                                     </form>
                                                 </div>
                                             </div>
@@ -423,45 +426,7 @@
                     <div class="col-12">
                         <hr>
                     </div>
-
-                   
-                    <!-- Top Selling Products -->
-
-                    <div class="col-12 py-3 bg-light d-sm-block d-none">
-                        <div class="row">
-                            <div class="col-lg-3 col ms-auto large-holder">
-                                <div class="row">
-                                    <div class="col-auto ms-auto large-icon">
-                                        <i class="fas fa-money-bill"></i>
-                                    </div>
-                                    <div class="col-auto me-auto large-text">
-                                        Best Price
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-3 col large-holder">
-                                <div class="row">
-                                    <div class="col-auto ms-auto large-icon">
-                                        <i class="fas fa-truck-moving"></i>
-                                    </div>
-                                    <div class="col-auto me-auto large-text">
-                                        Fast Delivery
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-3 col me-auto large-holder">
-                                <div class="row">
-                                    <div class="col-auto ms-auto large-icon">
-                                        <i class="fas fa-check"></i>
-                                    </div>
-                                    <div class="col-auto me-auto large-text">
-                                        Genuine Products
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </main>
+                    
                 <!-- Main Content -->
             </div>
 
@@ -475,7 +440,7 @@
                             <div class="row">
                                 <div class="col-12">
                                     <div class="footer-logo">
-                                        <a href="index.html">HIGHLAND RESTAURANT</a>
+                                        <a href="index.php">HIGHLAND RESTAURANT</a>
                                     </div>
                                 </div>
                                 <div class="col-12">
@@ -581,3 +546,30 @@
     <script type="text/javascript" src="js/script.js"></script>
 </body>
 </html>
+<?php
+   include("connection.php");
+   if (isset($_POST['submit']))
+   {
+        $ino=$_POST['productid'];
+        $result = mysqli_query($conn,"select * from items where icode=$ino");
+        $row = mysqli_fetch_array($result, MYSQLI_ASSOC);
+        $in = $row['iname'];
+        $tno=8;
+        //qty
+        $result2 = mysqli_query($conn,"select * from orders where icode=$ino");
+        $row2 = mysqli_fetch_array($result2, MYSQLI_ASSOC);
+        $cout = mysqli_num_rows($result2);
+        $price =$row['price'];
+        $qty=$row2['qty'];   
+        $qty=$qty+1;
+        $price = $qty*$price;
+        if($cout==0)
+        {
+            mysqli_query($conn,"insert into orders values('$tno','$ino','$in',1,$price)");
+        }
+        else
+        {
+            mysqli_query($conn,"update orders set qty=$qty,price=$price where icode=$ino");
+        }
+    }
+?> 
